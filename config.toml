@@ -4,6 +4,10 @@ base_url = "https://example.com"
 theme = "tabi"
 title = "~/hadi"
 
+taxonomies = [
+  { name = "tags", feed = true }
+]
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
