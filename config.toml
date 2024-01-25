@@ -1,8 +1,12 @@
 # The URL the site will be built for
 base_url = "https://example.com"
 
-theme = "tabi"
 title = "~/hadi"
+author = "Hadi Chaudhri"
+description = "Personal Website of Hadi Chaudhri"
+
+
+theme = "tabi"
 
 taxonomies = [
   { name = "tags", feed = true }
@@ -27,5 +31,14 @@ menu = [
     { name = "archive", url = "archive/" },
     { name = "projects", url = "projects/" },
 ]
+
+# Enable JavaScript theme toggler to allow users to switch between dark/light mode.
+theme_switcher = true
+
+# Default to OS-level theme ("light" or "dark")
+default_theme = ""
+
+favicon = "img/favicon.png"
+
 
 
